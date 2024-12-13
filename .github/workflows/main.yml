@@ -31,8 +31,8 @@ jobs:
         - name: Install dependencies
           run: pip install -r requirements.txt
         - name: Push to Hugging Face Hub
-          uses: huggingface/hub-actions/push@main
+          uses: backendcloud/hugging-push@v0.2.3
           with:
-            token: ${{ secrets.HF_TOKEN }}
+            hf_token: ${{ secrets.HF_TOKEN }}
             repo_id: Agile1234/Project5502
             branch: main
