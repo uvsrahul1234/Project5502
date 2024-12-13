@@ -34,5 +34,5 @@ jobs:
           uses: huggingface/hub-actions/push@main
           with:
             token: ${{ secrets.HF_TOKEN }}
-            repo_id: /
+            repo_id: Agile1234/Project5502
             branch: main
