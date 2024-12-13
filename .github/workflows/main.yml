@@ -18,7 +18,7 @@ jobs:
       - name: Change Directory
         run: pwd
       - name: Install dependencies
-        run: pip install -r requirements.txt
+        run: pip install -r requirments/requirements.txt
       - name: Run pytest
         run: pytest tests/  # Run tests in the 'tests' directory
 
