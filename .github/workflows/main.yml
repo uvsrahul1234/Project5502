@@ -16,7 +16,7 @@ jobs:
         with:
           python-version: '3.13'  # Or your desired version
       - name: Change Directory
-        run: cd Project5502/requirments
+        run: pwd
       - name: Install dependencies
         run: pip install -r requirements.txt
       - name: Run pytest
