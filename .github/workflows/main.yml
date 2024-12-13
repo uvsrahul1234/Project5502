@@ -16,7 +16,7 @@ jobs:
         with:
           python-version: '3.13'  # Or your desired version
       - name: Install dependencies
-        run: pip install -r requirements.txt
+        run: pip install -r .github/workflows/requirements.txt
       - name: Run pytest
         run: pytest tests/  # Run tests in the 'tests' directory
 
