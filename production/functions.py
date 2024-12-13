@@ -1,7 +1,7 @@
 import pandas as pd
 import pickle
 
-with open('production\models\model_v1.0.0.pkl', 'rb') as file:
+with open('production/models/model_v1.0.0.pkl', 'rb') as file:
     model = pickle.load(file)
 
 import pandas as pd
