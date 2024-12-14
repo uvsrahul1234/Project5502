@@ -33,6 +33,6 @@ jobs:
         - name: Push to Hugging Face Hub
           uses: backendcloud/hugging-push@v0.2.3
           with:
-            hf_token: ${{ secrets.HF_TOKEN }}
+            hf_token: ${{ secrets.HF_TOKEN2 }}
             repo_id: Agile1234/Project5502
             branch: main
